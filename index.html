@@ -14,14 +14,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
   <style>
-      .font-manrope{
-        font-family: "Manrope", sans-serif;
-      }
+    .font-manrope {
+      font-family: "Manrope", sans-serif;
+    }
   </style>
 
 </head>
 
-<body class="mx-32">
+<body class="mx-5 lg:mx-32">
   <header>
     <!-- nav-bar -->
     <div class="navbar bg-base-100 my-12">
@@ -57,12 +57,92 @@
       </div>
     </div>
     <!-- banner -->
-
+    <div class="carousel w-full lg:h-[500px] mb-20">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/trophy2.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="Images/trophy3.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
-      <section>
-        
-      </section>
+    <!-- Professional Hockeys Club section -->
+    <section>
+      <div class="text-center my-8">
+        <h2 class="text-4xl font-extrabold mb-5">Professional Hockeys Club</h2>
+        <p class="text-base font-medium">
+          "Champions at Heart, Legends on Ice: Embodying Excellence in Every Stride"
+        </p>
+      </div>
+      
+      <div class="mx-5 px-9 lg:flex my-10 py-9 text-center gap-5">
+          <!-- first progress -->
+          <div class="mt-7">
+            <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+            <div>
+              <h4 class="text-xl font-semibold my-6">Prayer Facility</h4>
+              <p class="text-base font-normal max-w-80">
+                We recognize the importance of spiritual well-being, offering dedicated prayer facilities.
+              </p>
+            </div>
+          </div>
+          <!-- Second progress -->
+          <div class="mt-7">
+            <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+            <div>
+              <h4 class="text-xl font-semibold my-6">Experienced Coach</h4>
+              <p class="text-base font-normal max-w-80">
+                Experience the guidance of our seasoned coaches, whose wealth of knowledge and expertise shapes champions.
+              </p>
+            </div>
+          </div>
+          <!-- third progress -->
+          <div class="mt-7">
+            <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+            <div>
+              <h4 class="text-xl font-semibold my-6">Senior Player</h4>
+              <p class="text-base font-normal max-w-80">
+                Lean on the seasoned leadership of our senior players, the bedrock of our team.
+              </p>
+            </div>
+          </div>
+          <!-- fourth progress -->
+          <div class="mt-7">
+            <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+            <div>
+              <h4 class="text-xl font-semibold my-6">Training Ground</h4>
+              <p class="text-base font-normal max-w-80">
+                Welcome to our state-of-the-art training ground, where champions are made and dreams are realized.
+              </p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Program section -->
+    <section>
+      <div class="text-center my-8">
+        <h2 class="text-4xl font-extrabold mb-5">Program Sections</h2>
+        <p class="text-base font-medium">
+          "Champions at Heart, Legends on Ice: Embodying Excellence in Every Stride"
+        </p>
+      </div>
+    </section>
   </main>
   <footer>
 
